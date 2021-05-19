@@ -25,7 +25,7 @@
 <body style="margin : 0px; overflow: hidden;">
   <!-- minimal loader shown until image descriptors are loaded -->
   <div class="arjs-loader">
-    <div>Cargando, por favor espere...</div>
+    <div>Loading, please wait...</div>
   </div>
   <a-scene
     vr-mode-ui="enabled: false;"
@@ -36,38 +36,17 @@
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
       type="nft"
-      url="img1.jpg"
+      url="NTF"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-    <a-nft
-      type="nft"
-      url="img2.jpg"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
-    <a-nft
-      type="nft"
-      url="img3.jpg"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
-    <a-nft
-      type="nft"
-      url="img4.png"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
-      
-      <a-entity id="mod" gltf-model="quesillox.glb" scale="0.300 0.190 0.300"> </a-entity>
+      <a-entity
+        gltf-model="quesillox.glb"
+        scale="5 5 5"
+        position="50 150 0"
+      >
       </a-entity>
     </a-nft>
     <a-entity camera></a-entity>
