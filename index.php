@@ -37,7 +37,31 @@
    
     <a-nft
       type="nft"
-      url=" NTF/img2"
+      url=" NTF/img1"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <a-nft
+      type="nft"
+      url=" NTF1/img2"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <a-nft
+      type="nft"
+      url=" NTF2/img3"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <a-nft
+      type="nft"
+      url=" NTF3/img4"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
