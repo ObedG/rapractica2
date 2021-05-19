@@ -66,11 +66,8 @@
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-      <a-entity
-        gltf-model="quesillox.glb"
-        scale="5 5 5"
-        position="50 150 0"
-      >
+      
+      <a-entity id="mod" gltf-model="quesillox.glb" scale="0.300 0.190 0.300"> </a-entity>
       </a-entity>
     </a-nft>
     <a-entity camera></a-entity>
