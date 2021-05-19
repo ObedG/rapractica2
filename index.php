@@ -48,7 +48,7 @@
    
       <a-entity
         gltf-model="quesillox.glb"
-        scale="5 5 5"
+        scale="20 20 20"
         position="50 150 0"
       >
       </a-entity>
