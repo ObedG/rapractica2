@@ -34,14 +34,7 @@
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
     <!-- we use cors proxy to avoid cross-origin problems -->
-    <a-nft
-      type="nft"
-      url=" NTF/img1"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
+   
     <a-nft
       type="nft"
       url=" NTF/img2"
@@ -50,22 +43,7 @@
       smoothTolerance=".01"
       smoothThreshold="5"
     >
-    <a-nft
-      type="nft"
-      url=" NTF/img3"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
-    <a-nft
-      type="nft"
-      url=" NTF/img4"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
-    >
+   
       <a-entity
         gltf-model="quesillox.glb"
         scale="5 5 5"
