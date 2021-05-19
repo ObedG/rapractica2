@@ -36,7 +36,7 @@
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
       type="nft"
-      url="https://github.com/ObedG/rapractica2/blob/main/NTF"
+      url=" NTF/img1"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
