@@ -25,7 +25,7 @@
 <body style="margin : 0px; overflow: hidden;">
   <!-- minimal loader shown until image descriptors are loaded -->
   <div class="arjs-loader">
-    <div>Loading, please wait...</div>
+    <div>Cargando, por favor espere...</div>
   </div>
   <a-scene
     vr-mode-ui="enabled: false;"
@@ -36,14 +36,38 @@
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
       type="nft"
-      url="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/trex-image/trex"
+      url="img1.jpg"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <a-nft
+      type="nft"
+      url="img2.jpg"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <a-nft
+      type="nft"
+      url="img3.jpg"
+      smooth="true"
+      smoothCount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+    <a-nft
+      type="nft"
+      url="img4.png"
       smooth="true"
       smoothCount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
       <a-entity
-        gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+        gltf-model="quesillox.glb"
         scale="5 5 5"
         position="50 150 0"
       >
